@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import './home.css';
 import AddContainer from '../../containers/AddContainer';
+import CartContainer from '../../container/CartContainer';
+import ProductsContainer from '../../container/ProductsContainer';
+import CommentsContainer from '../../container/CommentsContainer';
+import SellersContainer from '../../container/SellersContainer';
+import UsersContainer from '../../container/UsersContainer';
+
 import { Routes, Route, Link } from 'react-router-dom';
 
 const Home = () => {
@@ -32,6 +38,11 @@ const Home = () => {
         <div className="content__wrapper">
           <Routes>
             <Route path="/" element={<AddContainer />} />
+            <Route path="/sellers" element={<SellersContainer />} />
+            <Route path="/products" element={<ProductsContainer />} />
+            <Route path="/comments" element={<CommentsContainer />} />
+            <Route path="/cart" element={<CartContainer />} />
+            <Route path="/users" element={<UsersContainer />} />
           </Routes>
         </div>
       </div>
