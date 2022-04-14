@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import './home.css';
-import AddContainer from '../../containers/AddContainer';
-import CartContainer from '../../container/CartContainer';
-import ProductsContainer from '../../container/ProductsContainer';
-import CommentsContainer from '../../container/CommentsContainer';
-import SellersContainer from '../../container/SellersContainer';
-import UsersContainer from '../../container/UsersContainer';
+import React, { useState } from "react";
+import "./home.css";
+import AddContainer from "../../containers/AddContainer";
+import CartContainer from "../../containers/CartContainer";
+import ProductsContainer from "../../containers/ProductsContainer";
+import CommentsContainer from "../../containers/CommentsContainer";
+import SellersContainer from "../../containers/SellersContainer";
+import UsersContainer from "../../containers/UsersContainer";
 
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link } from "react-router-dom";
 
 const Home = () => {
   return (
