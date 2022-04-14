@@ -131,3 +131,13 @@ input[type='submit']:hover {
   border: 2px solid crimson;
   border-radius: 2px;
 }
+
+input[type='checkbox'] {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.avail {
+  display: flex;
+  flex-direction: column;
+}

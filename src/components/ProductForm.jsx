@@ -9,7 +9,7 @@ const ProductForm = () => {
           type="text"
           name="product__name"
           id="product__name"
-          placeholder="sample_seller_name...."
+          placeholder="sample product name...."
         />
       </div>
       <div className="form__item">
@@ -51,6 +51,24 @@ const ProductForm = () => {
           id="product__price"
           placeholder="$ 123.4"
         />
+      </div>
+
+      <div className="form__item avail">
+        <input type="checkbox" name="product__avail" id="product__avail" />
+        <label htmlFor="product__avail">Availability</label>
+      </div>
+
+      <div className="form__item">
+        <label htmlFor="preview__image">
+          Preview Images : (add urls of images seperated by commas)
+        </label>
+        <textarea
+          name="preview__image"
+          id="preview__image"
+          cols="30"
+          rows="3"
+          placeholder="add image urls seperated by commas"
+        ></textarea>
       </div>
 
       <div className="form__item">
