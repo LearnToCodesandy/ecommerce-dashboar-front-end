@@ -41,7 +41,7 @@ input[type='submit'] {
   border-radius: 2px;
   margin: 0.5rem 0;
   color: #fff;
-  background-color: blueviolet;
+  background-color: crimson;
   border: 2px solid transparent;
   cursor: pointer;
   transition: 0.2s ease-in all;
@@ -50,8 +50,8 @@ input[type='submit'] {
 
 input[type='submit']:hover {
   background: transparent;
-  color: blueviolet;
-  border: 2px solid blueviolet;
+  color: crimson;
+  border: 2px solid crimson;
 }
 
 .under__text {
@@ -75,7 +75,9 @@ input[type='submit']:hover {
 }
 
 .title {
+  width: 100%;
   margin-bottom: 2rem;
   font-size: 3.5rem;
   color: #fff;
+  text-align: center;
 }

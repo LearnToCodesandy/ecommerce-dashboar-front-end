@@ -25,7 +25,8 @@
 }
 
 body {
-  background-color: var(--clr-prussian-blue);
+  background-color: var(--clr-space-cadet);
+  color: #fff;
   width: 100%;
   min-height: 100vh;
   font-size: 15px;
