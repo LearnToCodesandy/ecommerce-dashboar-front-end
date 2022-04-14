@@ -11,7 +11,7 @@ const switchForm = (value) => {
       return <SellerForm />;
     case 'Product':
       return <ProductForm />;
-    case 'Comments':
+    case 'Comment':
       return <CommentForm />;
     default:
       return <SellerForm />;
@@ -51,7 +51,7 @@ const Home = () => {
               >
                 <option value="Seller">Seller</option>
                 <option value="Product">Product</option>
-                <option value="Comments">Comments</option>
+                <option value="Comment">Comment</option>
               </select>
             </div>
             <div className="form__container">{switchForm(current)}</div>
